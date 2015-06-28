@@ -26,12 +26,12 @@ if (isset($_POST['edit_user'])) {
 		$muser->setLevel($l);
 		if ( $muser->checkUsername($id) == true ) {
 			$muser->updateUser($id);
-			redirect('index.php?controller=user&action=list');
+			redirect("$baseurl/user/list");
 		} else {
 			$error[] = "Your user name has been registed";
 		}
 		
 	}
 }
-$data = $muser->getuserbyid ( $id );
+$data = $muser->getUserById ( $id );
 require "views/user/edit_view.php";

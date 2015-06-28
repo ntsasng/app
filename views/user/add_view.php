@@ -11,7 +11,7 @@
 					echo "</ul>";
 				}
 			?>
-			<form action="index.php?controller=user&action=add" method="post">
+			<form action="<?php echo $baseurl; ?>/user/add" method="post">
 				<div class="form-group">
 					<label for="username">Username</label>
 					<input type="text" class="form-control"  name="txtuser" placeholder="Username">
@@ -34,7 +34,7 @@
 					<button type="submit" class="btn btn-primary" name="add_user">Submit</button>
 				</div>
 			</form>
-			<a class="link-add-new" href="index.php?controller=user&action=list">List user</a>
+			<a class="link-add-new" href="<?php echo $baseurl; ?>/user/list">List user</a>
 		</div>
 		<div class="col-md-4 col-md-offset-2">
 			<?php require "templates/sidebar.php"; ?>

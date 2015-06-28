@@ -1,4 +1,5 @@
 <?php
+$baseurl = "http://local.dev/php/app";
 require "library/classdb.php";
 require "library/functions.php";
 if (isset($_GET['controller'])) {

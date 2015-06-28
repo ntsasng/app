@@ -11,7 +11,7 @@
 					echo "</ul>";
 				}
 			?>
-			<form action="index.php?controller=user&action=edit&uid=<?php echo $data['id']; ?>" method="post">
+			<form action="<?php echo $baseurl; ?>/user/edit/uid/<?php echo $data['id']; ?>" method="post">
 				<div class="form-group">
 					<label for="username">Username</label>
 					<input type="text" class="form-control"  name="txtuser" placeholder="Username" value="<?php echo $data['username']; ?>">

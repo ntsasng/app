@@ -63,7 +63,7 @@ class Model_User extends Database {
 		$this->query( $sql );
 	}
 
-	public function getuserbyid ( $id ) {
+	public function getUserById ( $id ) {
 		$sql = "SELECT * FROM tbl_user WHERE id = '$id'";
 		$this->query( $sql );
 		return $this->fetch();

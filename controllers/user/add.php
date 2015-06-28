@@ -25,7 +25,7 @@ if (isset($_POST['add_user'])) {
 		$muser->setLevel($l);
 		if ( $muser->checkUsername() ) {
 			$muser->insertUser();
-			redirect('index.php?controller=user&action=list');
+			redirect("$baseurl/user/list");
 		} else {
 			$error[] = "Username has been registed";
 		}

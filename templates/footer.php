@@ -1,6 +1,6 @@
-	<script src="templates/assets/js/jquery-2.1.1.min.js"></script>
-	<script src="templates/assets/js/bootstrap.min.js"></script>
-	<script src="templates/assets/js/app.js"></script>
+	<script src="<?php echo $baseurl; ?>/templates/assets/js/jquery-2.1.1.min.js"></script>
+	<script src="<?php echo $baseurl; ?>/templates/assets/js/bootstrap.min.js"></script>
+	<script src="<?php echo $baseurl; ?>/templates/assets/js/app.js"></script>
 	<footer>
 		<div class="container-fliud footer">
 			<div class="container">

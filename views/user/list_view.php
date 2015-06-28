@@ -31,8 +31,8 @@
 								} else {
 									echo "<td class='role-user'>User</td>";
 								}
-								echo "<td><a href='index.php?controller=user&action=edit&uid=$data_item[id]'>Edit</a></td>";
-								echo "<td><a href='index.php?controller=user&action=del&uid=$data_item[id]'>Delete</a></td>";
+								echo "<td><a href='$baseurl/user/edit/uid/$data_item[id]'>Edit</a></td>";
+								echo "<td><a href='$baseurl/user/del/uid/$data_item[id]'>Delete</a></td>";
 								echo "</tr>";
 								$stt++;
 							}
@@ -41,7 +41,7 @@
 						}
 					?>
 					</table>
-					<a class="link-add-new" href="index.php?controller=user&action=add">
+					<a class="link-add-new" href="<?php echo $baseurl; ?>/user/add">
 						<button type="button" class="btn btn-success">Add user</button>
 					</a>
 			</div>

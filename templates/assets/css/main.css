@@ -1,0 +1,36 @@
+.error-msg {
+  color: #F00;
+}
+table {
+  width: 100%;
+}
+table tr td {
+  border: 1px solid #DDD;
+  padding: 10px 15px;
+  text-align: center;
+}
+table .table-caption {
+  background: #337ab7;
+  color: #FFF;
+}
+.role-admin {
+  color: #F00;
+}
+.role-user {
+  color: #489F48;
+}
+.link-add-new {
+  float: left;
+  clear: both;
+  margin: 10px 0;
+}
+/* Navigation */
+nav.navbar {
+  background: #EEEEEE;
+}
+/* Content */
+/* Sidebar */
+/* Footer */
+footer .footer {
+  background: #EEEEEE;
+}

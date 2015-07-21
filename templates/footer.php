@@ -2,7 +2,7 @@
 	<script src="<?php echo $baseurl; ?>/templates/assets/js/bootstrap.min.js"></script>
 	<script src="<?php echo $baseurl; ?>/templates/assets/js/app.js"></script>
 	<footer>
-		<div class="container-fliud footer">
+		<div class="container-fliud footer frontend">
 			<div class="container">
 				<div class="col-md-3">
 					<h3 class="block-title">Footer a</h3>

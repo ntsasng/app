@@ -34,3 +34,30 @@ nav.navbar {
 footer .footer {
   background: #EEEEEE;
 }
+.admin_page {
+  background: #1c2b36;
+}
+.admin_page .navbar-default {
+  background: #1c2b36;
+  border: 1px solid #1c2b36;
+}
+.admin_page .container-fluid .row > div {
+  padding-right: 0;
+  padding-left: 0;
+}
+.admin_page .container-fluid .row .col-sm-9 {
+  background: #FFF;
+  min-height: 500px;
+}
+.admin_page .container-fluid .row .col-sm-3 .list-group {
+  box-shadow: none;
+}
+.admin_page .container-fluid .row .col-sm-3 .list-group .list-group-item {
+  border-radius: 0;
+}
+.admin_page .container-fluid .row .col-sm-3 .list-group .list-group-item i.glyphicon {
+  padding-right: 10px;
+}
+.admin_page .frontend {
+  display: none;
+}

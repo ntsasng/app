@@ -9,5 +9,5 @@
 	<link rel="stylesheet" href="<?php echo $baseurl; ?>/templates/assets/css/main.css">
 	<title><?php echo $title; ?></title>
 </head>
-<body>
-<?php require "templates/nav.php"; ?>
+<body class="<?php echo $body_class; ?>">
+<?php require "nav.php"; ?>

@@ -29,6 +29,6 @@
 		}
 	?>
 </table>
-<a class="link-add-new" href="index.php?controller=user&action=add">
+<a class="link-add-new" href="<?php echo $baseurl; ?>/user/add">
 	<button type="button" class="btn btn-success">Add user</button>
 </a>
